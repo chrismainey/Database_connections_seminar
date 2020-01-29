@@ -11,7 +11,8 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Database_connections_seminar
+# Database connections seminar
+### UHB Informatics R-usergroup
 
 <!-- badges: start -->
 <!-- badges: end -->

@@ -1,7 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Database\_connections\_seminar
+# Database connections seminar
+
+### UHB Informatics R-usergroup
 
 <!-- badges: start -->
 
