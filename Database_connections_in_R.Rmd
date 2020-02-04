@@ -271,3 +271,24 @@ dbWriteTable(DBI_Connection,"NewDatabaseTable", MyTable_local, overwrite=TRUE)
 
 ```
 
+---
+class: middle, center
+
+# Exercise:
+### Follow the instructions in the Excerise file
+
+---
+
+# Useful DBI commands
+
+|Command        | Summary                                                |
+| --------------|:------------------------------------------------------:|
+|dbConnect()    | Create a DBI connection object                         |
+|dbListTables() | List the tables on the connection                      |
+|dbListFields() | List the fileds for a given table on a given connection|
+|dbSendQuery()  | Send a query to eexecute on the server/connection      |
+|dbFetch()      | Fetch the results from the server/connection           |
+|dbWriteTable() | Write a table to the connection                        |
+|               |                                                        |
+|tbl()          | Set a table on the connection as a 'tibble' for `dplyr`|
+|glimpse()      | See a summary of the rows, data types and top rows     |

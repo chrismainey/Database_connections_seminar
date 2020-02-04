@@ -25,7 +25,7 @@ __Chris Mainey__
 &lt;a href="mailto:chris.mainey@uhb.nhs.uk"&gt; chris.mainey@uhb.nhs.uk&lt;/a&gt;
 
 &lt;br&gt;&lt;br&gt;
-2019/06/20 (updated: 2020-01-29)
+2019/06/20 (updated: 2020-02-04)
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 &lt;span style="font-size:14px !important;"&gt; __&amp;copy; Healthcare Evaluation Data (HED)__- part of Health Informatics, University Hospitals Birmingham NHS Foundation Trust.  
 &lt;b&gt;NOT TO BE REPUBLISHED OR DISTRIBUTED WITHOUT CONSENT&lt;/b&gt; &lt;/span&gt;
@@ -286,6 +286,28 @@ You can also write back to a database using the `dbWriteTable` function.
 ```r
 dbWriteTable(DBI_Connection,"NewDatabaseTable", MyTable_local, overwrite=TRUE)
 ```
+
+---
+class: middle, center
+
+# Exercise:
+### Follow the instructions in the Excerise file
+
+---
+
+# Useful DBI commands
+
+|Command        | Summary                                                |
+| --------------|:------------------------------------------------------:|
+|dbConnect()    | Create a DBI connection object                         |
+|dbListTables() | List the tables on the connection                      |
+|dbListFields() | List the fileds for a given table on a given connection|
+|dbSendQuery()  | Send a query to eexecute on the server/connection      |
+|dbFetch()      | Fetch the results from the server/connection           |
+|dbWriteTable() | Write a table to the connection                        |
+|               |                                                        |
+|tbl()          | Set a table on the connection as a 'tibble' for `dplyr`|
+|glimpse()      | See a summary of the rows, data types and top rows     |
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="libs/remark-latest.min.js"></script>
