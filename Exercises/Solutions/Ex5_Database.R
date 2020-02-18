@@ -82,7 +82,7 @@ my_tibble<-
   select(Org.Name, Cancelled.Operations) %>%
   collect()
 
-
+View(my_tibble)
 
 # Turn this into an aggreagate query using 'summarise'. How many organisations are there,
 # and what is the average number of cancelled ops?
