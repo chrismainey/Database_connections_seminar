@@ -293,5 +293,3 @@ class: middle, center
 |tbl()          | Set a table on the connection as a 'tibble' for `dplyr`|
 |glimpse()      | See a summary of the rows, data types and top rows     |
 
-
-
